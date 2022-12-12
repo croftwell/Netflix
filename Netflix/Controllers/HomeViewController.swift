@@ -9,10 +9,17 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    private let homeFeedTable: UITableView = {
+        
+        let table = UITableView()
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .systemCyan
+        view.backgroundColor = .systemBackground
     }
     
 
